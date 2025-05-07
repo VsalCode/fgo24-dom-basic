@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: darkslategray;  
+}
+
+div:first-child {
+  background-color: white;
+  height: 55vh;
+  width: 60vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+  padding: 20px;
+  border-radius: 24px;
+}
